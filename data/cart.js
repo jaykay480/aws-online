@@ -12,9 +12,10 @@ if(!cart){
     }];
 }
 
-export function saveToStorage(){
+function saveToStorage(){
   localStorage.setItem('cart',JSON.stringify(cart));
 }
+
 export function addToCart(productId)
 {
     let matchingItem;

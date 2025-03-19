@@ -33,8 +33,7 @@ hello();
     });
     const today=dayjs();
     const delivaryDate = today.add(
-      deliveryOption.deliveryDays,'days'
-    );
+    deliveryOption.deliveryDays,'days');
     const dateString = delivaryDate.format('dddd, MMMM, D');
     
    cartSummaryHTML+= `
